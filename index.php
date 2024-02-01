@@ -45,6 +45,7 @@ function showLoader() {
     $num1 = $_GET['num1'];
     $num2 = $_GET['num2'];
     $operator = $_GET['radio'];
+    $result = 0;
 
     if ($operator == '+') {
     $result = $num1 + $num2;
